@@ -1,0 +1,12 @@
+
+1-download git
+2-install git
+
+git initial
+
+git add .
+
+git config --global user.name kasra2021
+git config --global user.email kasra444@gmail.com
+
+git commit -m "first git ... "
