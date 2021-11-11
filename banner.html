@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- این قسمت مربوط به بخش بالایی هدر وبسایت است -->
+      <div id="top-header">
+        <img
+          id="logo"
+          src="assets/media/images/logo.svg"
+          alt="لوگوی وبسایت epasazh | پاساژ"
+        />
+
+        <div id="search">
+          <input />
+          <select name="" id="">
+            <option>همه گروه ها</option>
+            <option>پوشاک</option>
+            <option>کالای دیجیتال</option>
+            <option>آرایشی بهداشتی</option>
+          </select>
+          <button>جستجو</button>
+        </div>
+
+        <div id="icons">
+          <div>علاقمندی ها</div>
+          <div>سبد خرید</div>
+          <div class="user">
+            <a href="login.html">ورود</a>
+            <a href="signup.html">ثبت نام</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottom-header">
+        <nav>
+          <a class="nav-link" href="about-us.html">درباره ما</a>
+          <a class="nav-link" href="contact-us.html">تماس با ما</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <section class="banner">
+                <div class="right-banner">
+                      <div class="top">
+                            <img src="assets/media/images/banner/2.jpg" alt="">
+                            <img src="assets/media/images/banner/3.jpg" alt="">
+                            <img src="assets/media/images/banner/4.jpg" alt="">
+                      </div>
+                      <div class="bottom">
+                          <img src="assets/media/images/banner/a-d-img-6086c2128a35d.jpg" alt="">
+                          <img src="assets/media/images/banner/5.jpg" alt="">
+                      </div>  
+                </div>
+
+                <div class="left-banner">
+                    <img src="assets/media/images/banner/1.jpg" alt="">
+                </div> 
+        </section>
+
+        <section class="banner2">
+            <div class="column1">
+                <div class="top1">
+                    <img src="assets/media/images/banner/4.jpg" alt="">
+                    <img src="assets/media/images/banner/5.jpg" alt="">
+                </div>
+                <div class="bottom1">
+                    <img src="assets/media/images/banner/a-d-img-6086c2128a35d.jpg" alt="">
+                </div>
+            </div>
+            <div class="column2">
+                <img src="assets/media/images/banner/1.jpg" alt="">
+            </div>
+            <div class="column3">
+                <img src="assets/media/images/banner/2.jpg" alt="">
+                <img src="assets/media/images/banner/3.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <style>
+        img{
+            border-radius: 10px;
+        }
+        .banner2{
+            display: flex;
+            justify-content: center;
+        }
+        main{
+            height: 2000px;
+        }
+         .top1 img{
+            width: 315px;
+            height: 205px;
+         }
+         .bottom1 img{
+            width: 650px;
+            height: 205px;
+         }
+         .column2 img{
+            width: 315px;
+            height: 430px;
+         }
+         .column3 img{
+            width: 315px;
+            height: 205px;
+         }  
+
+
+        .banner{
+            display: flex;
+        }
+        .left-banner img{
+            width: 315px;
+            height: 430px;
+        }
+        .top{
+            margin-bottom: 15px;
+        }
+        .top img{
+            width: 315px;
+            height: 205px;
+        }
+        .bottom img:first-child{
+            width: 650px;
+            height: 205px;
+        }
+        .bottom img:nth-child(2){
+            width: 315px;
+            height: 205px;
+        }
+    </style>
+
+
+    <footer>
+      <p>تمامی حقوق برای شرکت سپاهان گستر محفوظ است</p>
+    </footer>
+  </body>
+</html>

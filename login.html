@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ورود به سایت</title>
+    
+  </head>
+  <body>
+    
+    <!-- 
+    <h2>فرم ثبت نام</h2>
+    <h3>فرم ثبت نام</h3>
+    <h4>فرم ثبت نام</h4>
+    <h5>فرم ثبت نام</h5>
+    <h6>فرم ثبت نام</h6> -->
+
+
+    <main id="#main">
+
+      <h1>فرم ثبت نام</h1>
+
+      <form class="form" action="">
+        <div class="form-group">
+          <label for="">نام کاربری:</label>
+        <input type="text" name="username">
+        </div>
+       <div class="form-group">
+        <label for="">رمز عبور:</label>
+        <input type="password" name="password">
+       </div>
+       <div class="form-group">
+        <label for="">ایمیل:</label>
+        <input type="email">
+       </div>
+
+       <div class="form-group">
+         <button type="submit"> ورود</button>
+       </div>
+
+      </form>
+<style>
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 300px;
+  }
+.form{
+  margin-top: 50px;
+  background: rgb(30, 134, 253);
+  padding: 15px;
+}
+.form-group{
+  margin-bottom: 15px;
+}
+.form-group label{
+  width: 80px;
+  display: inline-block;
+}
+.form-group input{
+  border-radius: 7px;
+  border: 1px solid rgb(102, 102, 102);
+  padding: 7px 10px;
+}
+.form-group button{
+  background-color: rgb(255, 166, 0);
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid;
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+}
+</style>
+
+    </main>
+   
+  </body>
+</html>
